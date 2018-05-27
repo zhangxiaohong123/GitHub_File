@@ -1,0 +1,53 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1527398574586" stop="1527398574633">
+  <name>test</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1527398574586" status="passed" stop="1527398574602">
+      <name>Test_001.test_abc[1]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6928-MainThread"/>
+        <label name="host" value="ZYRCI5O64EXSJVQ"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1527398574602" status="failed" stop="1527398574633">
+      <name>Test_001.test_abc[2]</name>
+      <failure>
+        <message>AssertionError: assert 2 != 2</message>
+        <stack-trace>self = &lt;test.Test_001 object at 0x0367F550&gt;, a = 2
+
+    @pytest.mark.parametrize("a",[1,2,3])
+    def test_abc(self,a):
+&gt;       assert a!=2
+E       assert 2 != 2
+
+scripts\test.py:6: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6928-MainThread"/>
+        <label name="host" value="ZYRCI5O64EXSJVQ"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1527398574633" status="passed" stop="1527398574633">
+      <name>Test_001.test_abc[3]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6928-MainThread"/>
+        <label name="host" value="ZYRCI5O64EXSJVQ"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
